@@ -12,3 +12,6 @@ def addColumn(data, column, values):
     data[column] = values
 
     return data
+
+def removeColumn(data, column):
+    return data.drop(columns=column)

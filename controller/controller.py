@@ -33,6 +33,3 @@ def addPortfolioAmountColumn(data, startingBalance):
         portfolioAmount.append( dailyTotalReturn[i] * portfolioAmount[-1] )
 
     return repository.addColumn(data, 'Portfolio Amount', portfolioAmount)
-
-def plotAnnualReturnsAndPortfolioGrowth():
-    pass

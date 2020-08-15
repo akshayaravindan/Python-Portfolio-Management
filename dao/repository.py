@@ -3,7 +3,7 @@ import pandas as pd
 '''
 GLOBAL DECLARATION SECTION
 '''
-pd.options.display.float_format = '{:.2f}'.format
+pd.options.display.float_format = '{:.4f}'.format
 
 def convertDataFromCsvToPandas(filename):
     convertedData = pd.read_csv(filename)
